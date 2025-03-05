@@ -111,6 +111,6 @@ variable "capacity_providers" {
   type        = list(any)
   description = "A lista dos capacity providers que serão permitidos no cluster fargate"
   default = [
-    "FARGATE", "FARGATE_SPOT"
+    "FARGATE"
   ]
 }
